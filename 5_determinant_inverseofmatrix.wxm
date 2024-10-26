@@ -1,0 +1,36 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+A: matrix([1,2,3] , [5,78,2] , [-2,4,1]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+determinant(A);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+determinant(%o1);
+
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+invert(A);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+invert(A), detout;
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

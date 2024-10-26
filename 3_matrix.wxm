@@ -1,0 +1,70 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+S
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+R2: [4,5,6];
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+R3: [7,8,9];
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A: matrix(R1,R2,R3);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+B: matrix([7,4,2], [7,-3,2], [6,1,-1]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A+B;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+%o4+%o5;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A-B;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A*B;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A/B;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+C:matrix([1,2], [6,3]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+D: %;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+%o9+%o10;
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

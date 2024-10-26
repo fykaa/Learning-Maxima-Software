@@ -1,0 +1,71 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+for x:1 step 2 thru 6 do display(x);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+for i:1 step 2 while i<=6 do display(i);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+for x:1 step 2 unless x>6 do display(x);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+for i step 2 thru 6 do display(i);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+marks: 40;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+for i:5 step 10 thru 50 do display(marks:marks+i);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+display(marks);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+kill(marks);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+display(marks);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+marks: 40;
+for i:5 step 10 while i <=50 do display(marks:marks+i);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+kill(marks);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+marks: 40;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+for i:5 step 10 unless i>50  do display(marks:marks+i);
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

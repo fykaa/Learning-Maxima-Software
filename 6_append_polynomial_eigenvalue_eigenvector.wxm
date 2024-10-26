@@ -1,0 +1,160 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+A:[23,23,2,23];
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+a:[32,3,4,3];
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+B: matrix(A,a);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+append(B, B);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+kill(B);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A:matrix([1,4,6], [6,-55,2], [5,-2,1]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+charpoly(A,x);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+expand(%o15);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+expand(charpoly(A,y));
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvalues(A);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+b:matrix([2,1,0] , [1,2,1] , [1,1,2]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+charpoly(b, x);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+expand(%i21);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+expand(%o21);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvalues(b);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+c:matrix([1,1,1] , [1,1,1], [1,1,1]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvalues(c);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvectors(c);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvectors(b);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+d:matrix([1,4], [7,2]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvalues(d);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvectors(d);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+hello: matrix([2,0,0],[0,3,0],[0,0,4]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+determinant(hello);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+invert(hello);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+charpoly(hello,x);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+expand(charpoly(hello,x));
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvalues(hello);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+eigenvectors(hello);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ 
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

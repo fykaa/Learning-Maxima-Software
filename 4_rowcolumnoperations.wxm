@@ -1,0 +1,65 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+A: matrix([1,2,3] , [7,5,2], [4,7,2]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+rowswap(A, 2,3);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+rowswap(A, 1,2);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+columnswap(A,1,2);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+columnswap(%o8, 3,2);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+rowop(A,1,2,-2);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+rowop(A,3, 2,-1);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+rowop(A, 3,1,4);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+columnop(A,1,2,-2);
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$
