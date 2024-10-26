@@ -1,0 +1,96 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+read("Cube of (a+b)");
+/* [wxMaxima: input   end   ] */
+/* [wxMaxima: question  start ] */
+<math><st>Cube of (a+b)</st><st> </st></math>
+/* [wxMaxima: question  end   ] */
+/* [wxMaxima: answer  start ] */
+expand((a+b)^3);
+/* [wxMaxima: answer  end   ] */
+
+
+/* [wxMaxima: input   start ] */
+  readonly("Cube of (a+b)");
+/* [wxMaxima: input   end   ] */
+/* [wxMaxima: question  start ] */
+<math><st>Cube of (a+b)</st><st> </st></math>
+/* [wxMaxima: question  end   ] */
+/* [wxMaxima: answer  start ] */
+expand((a+b)^3);
+/* [wxMaxima: answer  end   ] */
+
+
+/* [wxMaxima: input   start ] */
+print("Cube of (a+b) is " , expand((a+b)^3));
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A:matrix([2,1], [0,0]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+read("Determinant of Matrix A is");
+/* [wxMaxima: input   end   ] */
+/* [wxMaxima: question  start ] */
+<math><st>Determinant of Matrix A is</st><st> </st></math>
+/* [wxMaxima: question  end   ] */
+/* [wxMaxima: answer  start ] */
+determinant(A);
+/* [wxMaxima: answer  end   ] */
+
+
+/* [wxMaxima: input   start ] */
+readonly("Determinant of Matrix A is");
+/* [wxMaxima: input   end   ] */
+/* [wxMaxima: question  start ] */
+<math><st>Determinant of Matrix A is</st><st> </st></math>
+/* [wxMaxima: question  end   ] */
+/* [wxMaxima: answer  start ] */
+determinant(A);
+/* [wxMaxima: answer  end   ] */
+
+
+/* [wxMaxima: input   start ] */
+print("Determinant of Matrix A is", determinant(A));
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+read("Rank of matrix A is ", rank(A));
+/* [wxMaxima: input   end   ] */
+/* [wxMaxima: question  start ] */
+<math><st>Rank of matrix A is </st><st> </st><mn>1</mn><st> </st></math>
+/* [wxMaxima: question  end   ] */
+/* [wxMaxima: answer  start ] */
+rank(A);
+/* [wxMaxima: answer  end   ] */
+
+
+/* [wxMaxima: input   start ] */
+read("Characteristic Polynomial of A is");
+/* [wxMaxima: input   end   ] */
+/* [wxMaxima: question  start ] */
+<math><st>Characteristic Polynomial of A is</st><st> </st></math>
+/* [wxMaxima: question  end   ] */
+/* [wxMaxima: answer  start ] */
+charpoly(A,z);
+/* [wxMaxima: answer  end   ] */
+
+
+/* [wxMaxima: input   start ] */
+expand(%o13);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+print("hellow");
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

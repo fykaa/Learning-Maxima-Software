@@ -1,0 +1,91 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+A :matrix([1,2,3], [2,3,4], [4,5,6]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+determinant(A);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if determinant(A)= 0 then print("Singular A") else print("NOT Singular A");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+B :matrix([1,2,3], [2,4,4], [4,5,6]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if determinant(B)= 0 then print("Singular B") else print("NOT Singular B");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if determinant(B)= 0 then print("B is Singular") elseif determinant(B)= 1 then print("B is 1")
+    elseif determinant(B)= -6 then print("-6 is determinant of B") else print("B is NOT Singular");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+print("Relational Operators are: = equal, # Not equal, >greater than, <less than");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+a: 15;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+b:18;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+c:-2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if a>b then print("A is great") elseif a<b then print("B is Great") ;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if a<b and b<c then print ("C is greatest") elseif a<b and c<b then print ("B is greatest");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+rank(A);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if rank(A)#3 then print("Rank is not 3") else print ("rank is three");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if rank(A)# 0 then print("A is non null matrix") else print("A is null matrix");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+marks: 208;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if marks>=450 then print("Grade A") elseif marks>=200 then print("Grade B") else print("bad grade");
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$
